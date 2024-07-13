@@ -1,0 +1,121 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+        <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .notes {
+            margin-top: 20px;
+        }
+        .toptable{
+            width: 15%;
+        }
+    </style>
+</head>
+
+
+<body>
+    <form id="userData">
+        <input type="number" id="ક્રમ" placeholder="ક્રમ">
+        <input type="text" id="સભ્યનુંનામ" placeholder="સભ્યનું નામ (અખત પહેલા લખવું)">
+        <input type="text" id="કૌટુંબિકસંબંધ" placeholder="કૌટુંબિક સંબંધ">
+        <input type="number" id="જન્મતારીખ" placeholder="જન્મ તારીખ">
+        <input type="number" id="ઉમર" placeholder="ઉમર">
+        <input type="text" id="બ્લડગ્રુપ" placeholder="બ્લડ ગ્રુપ">
+        <input type="text,number" id="અભ્યાસ" placeholder="અભ્યાસ">
+        <input type="text" id="વૈવાહિકદરજજો" placeholder="વૈવાહિક દરજજો">
+        <input type="text" id="વ્યવસાય" placeholder="વ્યવસાય">
+        <input type="text" id="મોબાઇલનં" placeholder="મોબાઇલ નં.">
+        <input type="email" id="ઈમેલ" placeholder="ઈ-મેલ">
+        <input type="submit">
+    </form> <br>
+
+
+
+    
+
+<div class="header">
+    <h1>શ્રી સાંગણપુર પટેલ યુવા મંડળ, સુરત</h1>
+    <h2>કૌટુંબિક માહિતી</h2>
+    <div>
+        <span>અફીસના ઉપયોગ માટે</span>
+        
+             <span>સબ્ય નંબર: _________</span>
+            <span>ફોર્મ ભર્યા તા.: _________</span> 
+            <table class="toptable">
+                <thead >
+                    <tr>
+                        <th>સબ્ય નંબર:</th>
+                        <th>ફોર્મ ભર્યા તા.:</th>
+                    </tr>
+                    <tr>
+                        <input type="text">
+                    </tr>
+                </thead>
+            </table>
+        
+    </div>
+</div>
+
+<table >
+    <thead>
+        <tr>
+            <th rowspan="2">ક્રમ</th>
+            <th rowspan="2">સભ્યનું નામ (અખત પહેલા લખવું)</th>
+            <th rowspan="2">કૌટુંબિક સંબંધ</th>
+            <th rowspan="2">જન્મ તારીખ</th>
+            <th rowspan="2">ઉમર</th>
+            <th rowspan="2">બ્લડ ગ્રુપ</th>
+            <th rowspan="2">અભ્યાસ</th>
+            <th rowspan="2">વૈવાહિક દરજજો</th>
+            <th rowspan="2">વ્યવસાય</th>
+            <th rowspan="2">મોબાઇલ નં.</th>
+            <th rowspan="2">ઈ-મેલ</th>
+
+        </tr>
+    </thead>
+    <tbody id="tbody">
+
+    </tbody>
+</table>
+
+
+<div class="notes">
+    <p>નોંધ: આ ફોર્મમાં પુરી માહિતી ભરી જમા કરાવવાનું રહેશે. (જન્મ તારીખ અને બ્લડ ગ્રુપ ફરજિયાત) જેમની ખાસ નોંધ લેશો.</p>
+    <div>
+        <p>સભ્યશ્રીની પત્નીનો પિતાનો નામ અને ગામ (અખત પહેલા લખવું)</p>
+        <p>નામ: ____________________________</p>
+        <p>ગામ: ___________________ તા.: __________ જી.: __________</p>
+        <p>સભ્યની સહી: ____________________________</p>
+    </div>
+    <div>
+        <p>ઘાંસ/વ્યવસાયના સ્થળનું સરનામું</p>
+        <p>કોઈ બે કંપનીમાં જોડીને કરતાં હોય તો તેમનું નામ-સરનામું</p>
+    </div>
+</div>
+
+</body>
+</html>
